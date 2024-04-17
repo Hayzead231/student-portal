@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .container{
+        @apply mx-auto max-w-screen-xl p-10 lg:p-4
+    }
+    .btn{@apply px-6 py-2 text-white bg-blue-900 cursor-pointer}
+    .btn-outline{@apply px-6 py-2 border border-blue-900 cursor-pointer}
+    .label{@apply text-gray-500 text-[13px]}
+    .input{@apply w-full h-10 p-2 mt-2 border border-gray-700 placeholder-slate-400}
+}
